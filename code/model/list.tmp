@@ -1,0 +1,410 @@
+
+
+ 44495 Jan 31 14:55 advect_quick.f90
+
+
+ 1468 Jan 22 12:26 ana_uvw.f90
+
+
+ 2020 Jan 22 12:26 analytic_eval.f90
+
+
+ 12465 Jan 22 12:26 biharmonic.f90
+
+
+ 2679 Jan 22 12:26 calc_dvdy.f90
+
+
+ 1823 Jan 23 09:28 calcn2.f90
+
+
+ 2428 Jan 22 12:26 calcskfc.f90
+
+
+ 1403 Jan 22 12:26 cdiv.f90
+
+
+ 1213 Jan 22 12:26 cfdiv.f90
+
+
+ 423 Jan 22 12:26 check.py
+
+
+ 10469 Jan 30 14:17 checks.f90
+
+
+ 7453 Jan 22 12:26 chfine.f90
+
+
+ 7935 Jan 22 12:26 chfine.f90_mod
+
+
+ 17520 Jan 22 12:26 compute_size_param
+
+
+ 1996 Jan 22 12:38 conadjust_sT.f90
+
+
+ 59711 Jan 22 12:26 convert.f90
+
+
+ 1066 Jan 22 12:26 coriolis.f90
+
+
+ 2353 Jan 24 13:46 correctbc.f90
+
+
+ 3962 Jan 22 12:26 cpcors.f90
+
+
+ 5928 Jan 22 12:26 cpfine.f90
+
+
+ 2975 Jan 22 12:26 density.f90
+
+
+ 6791 Jan 22 12:26 dgtsl.f90
+
+
+ 13194 Jan 22 12:26 dgtsv.f90
+
+
+ 5349 Jan 22 12:26 diag_vort.f90
+
+
+ 26243 Jan 30 14:19 diffusion_wind.f90
+
+
+ 3069 Jan 22 12:26 eddydivergence.f90
+
+
+ 2530 Jan 22 12:26 efill.f90
+
+
+ 603 Jan 23 12:10 energy.f90
+
+
+ 3442 Jan 23 12:00 energy.f90_V0.41
+
+
+ 370 Jan 24 12:26 evalrho.f90
+
+
+ 500 Jan 22 12:26 evalrho_rho.f90
+
+
+ 708 Jan 24 12:26 evalrho_sT.f90
+
+
+ 3983 Jan 22 12:26 extremes_tr.f90
+
+
+ 1045 Jan 22 12:26 facediv.f90
+
+
+ 528 Jan 23 09:28 findsigma.f90
+
+
+ 2895 Jan 29 12:59 findz_topmoves.f90
+
+
+ 11668 Jan 24 13:47 geostroph.f90
+
+
+ 5839 Jan 22 12:26 geostroph.f90_mod
+
+
+ 13837 Jan 22 12:26 geostroph_Jinbo.f90
+
+
+ 883 Jan 22 12:26 grids.f90
+
+
+ 2803 Jan 22 12:26 grids.mod
+
+
+ 6254 Jan 22 12:26 hbc.f90
+
+
+17310 Feb  1 11:10 header.f90
+
+
+ 10006 Jan 22 12:26 header.f90~
+
+
+ 4976 Jan 22 12:26 hfill.f90
+
+
+ 2238 Jan 22 12:26 hsave.f90
+
+
+ 11594 Jan 22 12:26 hsolve.f90
+
+
+ 3129 Jan 22 12:26 ini_rho.f90
+
+
+ 374 Jan 23 12:26 ini_tracer.f90
+
+
+ 9559 Jan 30 11:57 init_tr.f90
+
+
+ 3058 Jan 29 13:35 inith_thermalwind.f90
+
+
+ 5665 Jan 22 12:26 intpol_3rdorder.f90
+
+
+ 5010 Jan 22 12:26 linerelax_periodicew.f90
+
+
+0 Feb  7 14:05 list.tmp
+
+
+3941 Feb  1 10:36 main.f90
+
+
+ 3910 Jan 22 12:26 main.f90~
+
+
+ 604 Jan 22 12:26 meanh.f90
+
+
+ 7371 Jan 22 12:26 mgpfill.f90
+
+
+ 8213 Jan 22 12:26 mgpfill_Jinbo.f90
+
+
+ 10641 Jan 22 12:26 mgrid.f90
+
+
+ 2875 Jan 22 12:26 mgrid_pre.f90
+
+
+ 2723 Jan 30 14:18 mod_io.f90
+
+
+ 12659 Jan 22 12:26 mod_nc.f90_DOUBT
+
+
+1482 Feb  1 12:46 momentum.f90
+
+
+ 10480 Jan 22 12:26 mprove.f90
+
+
+ 500 Jan 22 12:26 msg_error.f90
+
+
+ 12557 Jan 29 12:32 n2budget_topbot.f90
+
+
+ 787 Jan 22 12:26 newcor.f90
+
+
+ 724 Jan 22 12:26 newsrc.f90
+
+
+ 8181 Jan 30 10:56 outcdf.f90
+
+
+ 3392 Jan 22 12:26 outpv.f90
+
+
+ 17728 Jan 30 10:54 particles.f90
+
+
+ 9249 Jan 22 12:26 pbc.f90
+
+
+ 613 Jan 22 12:26 pcorrect.f90
+
+
+ 869 Jan 22 12:26 pfilter.f90
+
+
+ 3151 Jan 24 09:08 potdens.f90
+
+
+ 2714 Jan 22 12:26 prepvisc.f90
+
+
+ 6026 Jan 22 12:26 prolong.f90
+
+
+ 13893 Jan 22 12:26 psolve.f90
+
+
+ 5810 Jan 29 12:20 pvcalc.f90
+
+
+ 1423 Jan 23 09:08 ran3.f90
+
+
+ 990 Jan 22 12:26 relaxation.f90
+
+
+ 3327 Jan 22 12:26 resid.f90
+
+
+ 1664 Jan 22 12:26 restrict.f90
+
+
+ 5299 Jan 22 12:26 rpflattopog.f90
+
+
+ 12409 Jan 24 13:40 rpflattopog_Sche.f90
+
+
+ 602 Jan 22 12:26 seed_particles.f90
+
+
+ 1323 Jan 24 13:47 setbc.f90
+
+
+ 2502 Jan 23 09:08 seval.f90
+
+
+ 1489 Jan 22 12:26 sigma2z.f90
+
+
+ 5168 Jan 31 19:04 sigma_toplayer.f90
+
+
+ 3973 Jan 22 12:26 smooth.f90
+
+
+ 2600 Jan 22 12:26 sor.f90
+
+
+ 5434 Jan 22 12:26 spline.f90
+
+
+ 7226 Jan 22 12:26 srcface_3rdorder.f90
+
+
+ 7377 Jan 22 12:26 srcface_nopy.f90
+
+
+ 14120 Jan 31 19:03 staticsigma.f90
+
+
+ 3989 Jan 23 12:42 stprofile_X.f90
+
+
+ 10742 Jan 22 12:26 stprofile_X.f90_V0.41
+
+
+ 10985 Jan 22 12:26 streamfunction.f90
+
+
+ 1002 Jan 22 12:26 surfaceflux.f90
+
+
+ 36587 Jan 22 12:26 time_subs.f90
+
+
+ 4867 Jan 24 13:48 topog.f90
+
+
+ 3781 Jan 22 12:26 tracerinit_dots.f90
+
+
+ 4732 Jan 22 12:26 tracerinit_isopyc4depths.f90
+
+
+ 1794 Jan 22 12:26 tracerinit_nut.f90
+
+
+ 2799 Jan 22 12:26 tracerrelease_dots.f90
+
+
+ 3563 Jan 22 12:26 tracerrelease_isopyc4depths.f90
+
+
+ 3979 Jan 22 12:26 tracersource_isopyc.f90
+
+
+ 1893 Jan 23 09:28 tracersource_nut.f90
+
+
+ 5988 Jan 22 12:26 tracmass.f90
+
+
+ 1117 Jan 22 12:26 tracmass_interface.f90
+
+
+ 1930 Jan 22 12:26 tracmass_modules.f90
+
+
+ 478 Jan 22 12:26 traj_forward.f90
+
+
+ 149 Jan 22 12:26 utils.f90
+
+
+ 2290 Jan 22 12:26 uvchy.f90
+
+
+ 1709 Jan 22 12:26 vcenter.f90
+
+
+ 2963 Jan 22 12:26 vface.f90
+
+
+ 2282 Jan 22 12:26 vhydro.f90
+
+
+ 5577 Jan 22 12:26 viscous.f90
+
+
+ 2372 Jan 24 13:28 windstress.f90
+
+
+ 1702 Jan 30 15:47 write_op.f90
+
+
+ 976 Jan 22 12:26 writebin.f90
+
+
+ 3400 Jan 28 12:19 writecdf.f90
+
+
+ 1108 Jan 22 12:26 writecdf.f90~
+
+
+ 15374 Jan 24 13:41 writegeopotential.f90
+
+
+ 8698 Jan 22 12:26 writeisopycnal.f90
+
+
+ 14188 Jan 22 12:37 writeksurf.f90
+
+
+ 14955 Jan 22 12:26 writeksurf.f90~
+
+
+ 9116 Jan 22 12:26 writemooring.f90
+
+
+ 5013 Jan 22 12:26 writen2budget.f90
+
+
+ 19197 Jan 22 12:26 writeslice.f90
+
+
+ 17873 Jan 22 12:26 writeslicenut.f90
+
+
+ 7455 Jan 22 12:26 writestrain.f90
+
+
+ 18601 Jan 22 12:26 writexslice.f90
+
+
+ 7969 Jan 22 12:26 writeyslice.f90
+
+
