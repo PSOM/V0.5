@@ -155,7 +155,7 @@ dirout=$(pwd | sed "s%code$%output/%g")
 echo "namelist is completed with" 
 echo "  - the default directory for the model output: $dirout"
 
-cat namelist | sed "s%^dirout=%@@%g" | cut -d@ -f1-2 | sed "s%@%dirout=\"$dirout\"/%g" > $opt_temp
+cat namelist | sed "s%^dirout=%@@%g" | cut -d@ -f1-2 | sed "s%@%dirout=\"$dirout\",%g" > $opt_temp
 mv namelist _namelist.bak; mv $opt_temp namelist; rm -f _namelist.bak
 
 # End of step 2.
