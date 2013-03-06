@@ -31,8 +31,6 @@ Once you have done that, you simply follow the "configure, compile, run" sequenc
     ./exe/nh < ./namelist_default
 
 
-You are done !
-
 +****************************************************************************************************************************************************
 +      TESTCASES
 +----------------------------
