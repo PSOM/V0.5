@@ -11,7 +11,7 @@ dtime_dim=432d0,           ! time step (in sec)
 
 !----------  HYDROSTATIC ------------------------
 
-fnhhy=1.0d0,               ! 1 is simulation is hydrostatic, 0 otherwise
+fnhhy=1.0d0,               ! 1 is simulation is non-hydrostatic, 0 otherwise
 
 !--- PLANETARY VORTICITY ------------------------
 

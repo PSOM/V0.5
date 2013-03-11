@@ -224,7 +224,11 @@ step7: Tried to run the "wiggle" case.
 
      More details in code/doc/benchmark_20120131
 
+**********************************************************
+* ACTION 13b: Added an along-isopycnal diffusion (Redi scheme).
 
+  More details later.
+ 
 
 **********************************************************
 * ACTION 14: momentum in a loop, cleared init_tr (future ini_setup).
