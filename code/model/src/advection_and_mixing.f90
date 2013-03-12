@@ -62,6 +62,9 @@ do selvar=1,5+ntr
       iv_compute_kz=0;
     endif
 
+    if(selvar==3 .OR. selvar==4) uvarx(1:NI,1:NJ,1)=uvarx(1:NI,1:NJ,1) + RR*(1.d0/(UL*delta) ) * ( Jac(1:NI,1:NJ,1)*wz(1:NI,1:NJ,1) ) * var(1:NI,1:NJ,1)
+
+
     ! final summation  
     if(selvar==1) T(1:NI,1:NJ,1:NK,n)=T(1:NI,1:NJ,1:NK,0)-dtimel*Jacinv(1:NI,1:NJ,1:NK)*uvarx(1:NI,1:NJ,1:NK)
     if(selvar==2) s(1:NI,1:NJ,1:NK,n)=s(1:NI,1:NJ,1:NK,0)-dtimel*Jacinv(1:NI,1:NJ,1:NK)*uvarx(1:NI,1:NJ,1:NK)
